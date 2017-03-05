@@ -1,0 +1,83 @@
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\bin\MvcCms.dll.config
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\bin\MvcCms.dll
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\bin\MvcCms.pdb
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\bin\System.Web.Helpers.dll
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\bin\System.Web.Mvc.dll
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\bin\System.Web.Razor.dll
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\bin\System.Web.Webpages.dll
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\bin\System.Web.Webpages.Razor.dll
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\bin\System.Web.Razor.xml
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\bin\System.Web.Webpages.xml
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\bin\System.Web.Webpages.Razor.xml
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\bin\System.Web.Helpers.xml
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\bin\System.Web.Mvc.xml
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\obj\Debug\MvcCms.csprojResolveAssemblyReference.cache
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\obj\Debug\MvcCms.dll
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\obj\Debug\MvcCms.pdb
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\EntityFramework.dll
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\EntityFramework.SqlServer.dll
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\Microsoft.Owin.dll
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\Microsoft.Owin.Security.dll
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\Newtonsoft.Json.dll
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\Owin.dll
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\EntityFramework.xml
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\EntityFramework.SqlServer.xml
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\Microsoft.Owin.xml
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\Microsoft.Owin.Security.xml
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\Newtonsoft.Json.xml
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\MvcCms.dll.config
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\MvcCms.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\MvcCms.pdb
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\EntityFramework.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\EntityFramework.SqlServer.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Microsoft.AspNet.Identity.Core.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Microsoft.Owin.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Microsoft.Owin.Security.Cookies.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Microsoft.Owin.Security.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Microsoft.Owin.Security.OAuth.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Microsoft.Web.Infrastructure.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Newtonsoft.Json.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Owin.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\System.Web.Helpers.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\System.Web.Mvc.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\System.Web.Razor.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\System.Web.Webpages.Deployment.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\System.Web.Webpages.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\System.Web.Webpages.Razor.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\EntityFramework.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\EntityFramework.SqlServer.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Microsoft.AspNet.Identity.Core.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Microsoft.Owin.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Microsoft.Owin.Security.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Microsoft.Owin.Security.Cookies.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Microsoft.Owin.Security.OAuth.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Newtonsoft.Json.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\System.Web.Razor.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\System.Web.Webpages.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\System.Web.Webpages.Deployment.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\System.Web.Webpages.Razor.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\System.Web.Helpers.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\System.Web.Mvc.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\obj\Debug\MvcCms.csprojResolveAssemblyReference.cache
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\obj\Debug\MvcCms.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\obj\Debug\MvcCms.pdb
