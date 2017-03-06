@@ -86,3 +86,47 @@ D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-M
 D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\obj\Debug\MvcCms.csproj.GenerateResource.Cache
 D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\obj\Debug\MvcCms.dll
 D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\obj\Debug\MvcCms.pdb
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\MvcCms.dll.config
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\MvcCms.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\MvcCms.pdb
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\EntityFramework.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\EntityFramework.SqlServer.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Microsoft.Owin.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Microsoft.Owin.Security.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Newtonsoft.Json.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Owin.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\System.Web.Helpers.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\System.Web.Mvc.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\System.Web.Razor.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\System.Web.WebPages.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\System.Web.WebPages.Razor.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\EntityFramework.xml
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\EntityFramework.SqlServer.xml
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Microsoft.Owin.xml
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Microsoft.Owin.Security.xml
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Newtonsoft.Json.xml
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\System.Web.Helpers.xml
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\System.Web.Mvc.xml
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\System.Web.Razor.xml
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\System.Web.WebPages.xml
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\System.Web.WebPages.Razor.xml
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\obj\Debug\MvcCms.Migrations.Image.resources
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\obj\Debug\MvcCms.Migrations.ImageUrl.resources
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\obj\Debug\MvcCms.csproj.GenerateResource.Cache
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\obj\Debug\MvcCms.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\obj\Debug\MvcCms.pdb
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\obj\Debug\MvcCms.csprojResolveAssemblyReference.cache
