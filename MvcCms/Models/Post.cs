@@ -25,6 +25,10 @@ namespace MvcCms.Models
         [Display(Name = "Date Created")]
         public DateTime Created { get; set; }
 
+
+        [Display(Name = "Feature Image")]
+        public string ImageUrl { get; set; }
+
         [Display(Name = "Date Published")]
         public DateTime? Published { get; set; }
 

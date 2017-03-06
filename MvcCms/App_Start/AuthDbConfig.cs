@@ -23,11 +23,11 @@ namespace MvcCms.App_Start
                     var adminUser = new CmsUser
                     {
                         UserName = "admin",
-                        Email = "admin@cms.com",
+                        Email = "admin@makara.com",
                         DisplayName = "Administrator"
                     };
 
-                    await users.CreateAsync(adminUser, "Passw0rd1234");
+                    await users.CreateAsync(adminUser, "12345678");
                 }
             }
 

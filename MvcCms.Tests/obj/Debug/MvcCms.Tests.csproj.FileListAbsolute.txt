@@ -20,3 +20,6 @@ C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms.Tests
 C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms.Tests\bin\Debug\Telerik.JustMock.xml
 C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms.Tests\obj\Debug\MvcCms.Tests.dll
 C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms.Tests\obj\Debug\MvcCms.Tests.pdb
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms.Tests\obj\Debug\MvcCms.Tests.csprojResolveAssemblyReference.cache
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms.Tests\obj\Debug\MvcCms.Tests.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms.Tests\obj\Debug\MvcCms.Tests.pdb
