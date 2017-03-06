@@ -129,3 +129,4 @@ C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\obj\Debug\MvcCms.Migrations.
 C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\obj\Debug\MvcCms.csproj.GenerateResource.Cache
 C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\obj\Debug\MvcCms.dll
 C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\obj\Debug\MvcCms.pdb
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\obj\Debug\MvcCms.csprojResolveAssemblyReference.cache
