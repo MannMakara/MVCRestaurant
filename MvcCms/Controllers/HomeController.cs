@@ -1,6 +1,8 @@
 ﻿using MvcCms.Data;
+using MvcCms.Models;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
@@ -8,7 +10,7 @@ using System.Web.Mvc;
 
 namespace MvcCms.Controllers
 {
-    [RoutePrefix("")]
+   
     public class HomeController : Controller
     {
         private readonly IPostRepository _posts;
@@ -78,6 +80,24 @@ namespace MvcCms.Controllers
             ViewBag.Tag = tagId;
 
             return View(posts);
+        }
+        public void uploadnow(HttpPostedFileWrapper upload)
+        {
+            if (upload != null)
+            {
+                string ImageName = upload.FileName;
+                string path = System.IO.Path.Combine(Server.MapPath("~/Images/uploads"), ImageName);
+                upload.SaveAs(path);
+            }
+        }
+        public ActionResult uploadPartial()
+        {
+            var appData = Server.MapPath("~/Images/uploads");
+            var images = Directory.GetFiles(appData).Select(x => new imagesviewmodel
+            {
+                Url = Url.Content("/Images/uploads/" + Path.GetFileName(x))
+            });
+            return View(images);
         }
     }
 }

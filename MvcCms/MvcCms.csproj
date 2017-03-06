@@ -291,6 +291,7 @@
     <Content Include="Scripts\ckeditor\plugins\copyformatting\styles\copyformatting.css" />
     <Content Include="Scripts\ckeditor\plugins\dialog\dialogDefinition.js" />
     <Content Include="Scripts\ckeditor\plugins\div\dialogs\div.js" />
+    <Content Include="Scripts\ckeditor\plugins\filebrowser\plugin.js" />
     <Content Include="Scripts\ckeditor\plugins\find\dialogs\find.js" />
     <Content Include="Scripts\ckeditor\plugins\flash\dialogs\flash.js" />
     <Content Include="Scripts\ckeditor\plugins\flash\images\placeholder.png" />
@@ -512,11 +513,15 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\CmsUser.cs" />
+    <Compile Include="Models\imagesviewmodel.cs" />
     <Compile Include="Models\ModelBinders\PostModelBinder.cs" />
     <Compile Include="Models\Post.cs" />
     <Compile Include="Models\StringExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="Upload.ashx.cs">
+      <DependentUpon>Upload.ashx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
@@ -558,6 +563,8 @@
     <Content Include="Scripts\ckeditor\package.json" />
     <Content Include="Scripts\ckeditor\LICENSE.md" />
     <Content Include="Scripts\ckeditor\CHANGES.md" />
+    <Content Include="Upload.ashx" />
+    <Content Include="Views\Home\uploadPartial.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -568,6 +575,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Images\uploads\" />
     <Folder Include="Views\Default\" />
   </ItemGroup>
   <ItemGroup>

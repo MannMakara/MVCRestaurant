@@ -55,6 +55,7 @@ namespace MvcCms.Areas.Admin.Controllers
         // /admin/post/create/
         [HttpPost]
         [Route("create")]
+        [ValidateInput(false)]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Create(Post model)
         {
@@ -118,6 +119,7 @@ namespace MvcCms.Areas.Admin.Controllers
         // /admin/post/edit/post-to-edit
         [HttpPost]
         [Route("edit/{postId}")]
+        [ValidateInput(false)]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Edit(string postId, Post model)
         {
@@ -170,7 +172,7 @@ namespace MvcCms.Areas.Admin.Controllers
         // /admin/post/delete/post-to-edit
         [HttpGet]
         [Route("delete/{postId}")]
-        [Authorize(Roles="admin, editor")]
+        //[Authorize(Roles="admin, editor")]
         public ActionResult Delete(string postId)
         {
             var post = _repository.Get(postId);
@@ -187,7 +189,7 @@ namespace MvcCms.Areas.Admin.Controllers
         [HttpPost]
         [Route("delete/{postId}")]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "admin, editor")]
+        //[Authorize(Roles = "admin, editor")]
         public ActionResult Delete(string postId, string foo)
         {
             try
