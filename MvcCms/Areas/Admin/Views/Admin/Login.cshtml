@@ -5,9 +5,40 @@
     Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h2>Login</h2>
+<body class="signup-body">
+    <div class="agile-signup">
+        <div class="content2">
+            <div class="grids-heading gallery-heading signup-heading">
+                <h2>Login</h2>
+            </div>
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        
+                            @Html.EditorFor(model => model.UserName, new { htmlAttributes = new { @placeholder = "Enter your username" } })
+                            @Html.ValidationMessageFor(model => model.UserName, "")
+                        
+                            @Html.PasswordFor(model => model.Password)
+                            @Html.ValidationMessageFor(model => model.Password, "")
+                        
+                        @Html.LabelFor(model => model.RememberMe)
+                        
+                                @Html.EditorFor(model => model.RememberMe)
+                                @Html.ValidationMessageFor(model => model.RememberMe, "")
+                            
+                            <input type="submit" value="Login" class="register" />
+            }
+        </div>
+        <!-- footer -->
+        <div class="copyright">
+            <p>© @DateTime.Now.Year AdminDashboard . All Rights Reserved .</p>
+        </div>
+        <!-- //footer -->
+    </div>
+</body>
 
-@using (Html.BeginForm()) 
+@*@using (Html.BeginForm()) 
 {
     @Html.AntiForgeryToken()
     
@@ -50,4 +81,4 @@
 
 <div>
     @Html.ActionLink("Back to List", "Index")
-</div>
+</div>*@

@@ -2,10 +2,46 @@
 
 @{
     ViewBag.Title = "Index";
-    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+    Layout = "~/Areas/Admin/Views/Shared/_DashBoardLayout.cshtml";
 }
 
-<h2>Index</h2>
+<ul class="bt-list" style="width:50%">
+    <li><h2>Tags</h2></li>
+</ul>
+
+<div class="agile-tables">
+    <div class="w3l-table-info">
+        @AntiForgery.GetHtml()
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Tag Name
+                    </th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @item
+                        </td>
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", new { tag = item })
+                        </td>
+                        <td>
+                            @Html.ActionLink("Delete", "Delete", new { tag = item }, new { data_action = "delete", data_value = item })
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+@*<h2>Index</h2>
 @AntiForgery.GetHtml()
 
 
@@ -30,4 +66,4 @@
     </tr>
 }
 
-</table>
+</table>*@

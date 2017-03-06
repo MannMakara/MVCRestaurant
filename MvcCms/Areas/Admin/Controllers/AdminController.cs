@@ -79,7 +79,8 @@ namespace MvcCms.Areas.Admin.Controllers
             {
                 items.Add(new AdminMenuItem
                 {
-                    Text = "Admin Home",
+                    Text = "Dashboard",
+                    Icon = "fa fa-dashboard nav-icon",
                     Action = "index",
                     RouteInfo = new { controller = "admin", area = "admin" }
                 });
@@ -89,6 +90,7 @@ namespace MvcCms.Areas.Admin.Controllers
                     items.Add(new AdminMenuItem
                     {
                         Text = "Users",
+                        Icon = "fa fa-check-square-o nav_icon",
                         Action = "index",
                         RouteInfo = new { controller = "user", area = "admin" }
                     });
@@ -98,6 +100,7 @@ namespace MvcCms.Areas.Admin.Controllers
                     items.Add(new AdminMenuItem
                     {
                         Text = "Profile",
+                        Icon = "fa fa-check-square-o nav_icon",
                         Action = "edit",
                         RouteInfo = new { controller = "user", area = "admin", username = User.Identity.Name }
                     });
@@ -108,6 +111,7 @@ namespace MvcCms.Areas.Admin.Controllers
                     items.Add(new AdminMenuItem
                     {
                         Text = "Tags",
+                        Icon = "fa fa-list-ul nav-icon",
                         Action = "index",
                         RouteInfo = new { controller = "tag", area = "admin" }
                     });
@@ -116,6 +120,7 @@ namespace MvcCms.Areas.Admin.Controllers
                 items.Add(new AdminMenuItem
                 {
                     Text = "Posts",
+                    Icon = "fa fa-file-text-o nav-icon",
                     Action = "index",
                     RouteInfo = new { controller = "post", area = "admin" }
                 });
@@ -135,6 +140,7 @@ namespace MvcCms.Areas.Admin.Controllers
             if (User.Identity.IsAuthenticated)
             {
                 item.Text = "Logout";
+                item.Icon = "icon-off nav-icon";
                 item.Action = "logout";
             }
             else

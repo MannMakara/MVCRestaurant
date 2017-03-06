@@ -21,6 +21,9 @@
     <script src="js/modernizr.js"></script>
     <script src="js/jquery.cookie.js"></script>
     <script src="js/screenfull.js"></script>
+    <!--validator js-->
+    <script src="~/js/validator.min.js"></script>
+    <!--//validator js-->
     <script>
 		$(function () {
 			$('#supported').text('Supported/allowed: ' + !!screenfull.enabled);
@@ -67,30 +70,50 @@
     });
     </script>
 </head>
-@RenderBody()
-@*<body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    @{
-                        Html.RenderAction("AdminMenu", new { controller = "admin", area = "admin" });
-                        Html.RenderAction("AuthenticationLink", new { controller = "admin", area = "admin" });
-                        
-                    }
-                </ul>
+<body class="dashboard-page">
+    <nav class="main-menu">
+        <ul>
+            @{
+                Html.RenderAction("AdminMenu", new { controller = "admin", area = "admin" });
+                Html.RenderAction("AuthenticationLink", new { controller = "admin", area = "admin" });
 
+            }
+        </ul>
+    </nav>
+    <section class="wrapper scrollable">
+        <nav class="user-menu">
+            <a href="javascript:;" class="main-menu-access">
+                <i class="icon-proton-logo"></i>
+                <i class="icon-reorder"></i>
+            </a>
+        </nav>
+        <section class="title-bar">
+            <div class="logo">
+                <h1><a href="index.html"><img src="~/images/logo.png" alt="" />Admin</a></h1>
             </div>
+            <div class="full-screen">
+                <section class="full-top">
+                    <button id="toggle"><i class="fa fa-arrows-alt" aria-hidden="true"></i></button>
+                </section>
+            </div>
+            <div class="w3l_search">
+                <form action="#" method="post">
+                    <input type="text" name="search" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}" required="">
+                    <button class="btn btn-default" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </form>
+            </div>
+            <div class="clearfix"> </div>
+
+        </section>
+        <div class="main-grid">
+            @RenderBody()
         </div>
-    </div>
-    <div>
-        @RenderBody()
-    </div>
-    <script src="~/js/jquery-2.1.1.min.js"></script>
-    <script src="~/js/jquery-ui.min-1.11.1.js"></script>
-    <script src="~/js/admin.js"></script>
+        <!-- footer -->
+        <div class="footer">
+            <p>© @DateTime.Now.Year AdminDashboard . All Rights Reserved .</p>
+        </div>
+        <!-- //footer -->
+    </section>
     @RenderSection("scripts", required: false)
-</body>*@
+</body>
 </html>
