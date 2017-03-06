@@ -56,6 +56,7 @@ namespace MvcCms.Areas.Admin.Controllers
         [HttpPost]
         [Route("create")]
         [ValidateAntiForgeryToken]
+        [ValidateInput(false)]
         public async Task<ActionResult> Create(Post model)
         {
             if (!ModelState.IsValid)
