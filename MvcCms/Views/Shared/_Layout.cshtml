@@ -2,13 +2,119 @@
 
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.Title</title>
-    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="~/css/Site.css" rel="stylesheet" />
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Restaurant CMS</title>
+    <link href="~/themes/assets/css/carousel.css" rel="stylesheet">
+    <link href="~/themes/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+    <div class="navbar-wrapper">
+        <div class="container">
+
+            <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="@Url.Action("index", "home", new { area = "" })">Restaurant CMS</a>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            @{
+                                Html.RenderAction("AuthenticationLink", new { controller = "admin", area = "admin" });
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="mainCarousel">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            
+            <div class="carousel-inner">
+                <div class="item active">
+                    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false">
+                    </script>
+                    <script>
+                        var myCenter = new google.maps.LatLng(11.5618262, 104.8729341);
+			var marker;
+			function initialize()
+			{
+			var mapProp = {
+			  center:myCenter,
+			  zoom:15,
+			  mapTypeId:google.maps.MapTypeId.ROADMAP
+			  };
+			var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+			marker=new google.maps.Marker({
+			  position:myCenter,
+			 // icon:'themes/assets/images/nepali-momo.png',
+			  animation:google.maps.Animation.BOUNCE
+			  });
+
+			marker.setMap(map);
+
+			// Info open
+			var infowindow = new google.maps.InfoWindow({
+			  content:"Hello World!"
+			  });
+
+			google.maps.event.addListener(marker, 'click', function() {
+			  infowindow.open(map,marker);
+			  });
+			}
+			google.maps.event.addDomListener(window, 'load', initialize);
+                    </script>
+                    <div id="googleMap" style="height:450px;"></div>
+                    
+                </div>
+            </div>
+        </div><!-- /.carousel -->
+    </div>
+
+    <div class="highlightSection">
+        <div class="container">
+            <div class="row">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p class="pull-right"><a href="#">Back to top</a></p>
+            <p>&copy; @DateTime.Now.Year Restaurant CMS. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </div>
+    </footer>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="~/themes/dist/js/bootstrap.min.js"></script>
+    <script src="~/themes/assets/js/holder.js"></script>
+    @RenderSection("scripts", required: false)
+</body>
+
+
+
+@*<body>
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -29,5 +135,5 @@
     <script src="~/js/jquery-2.1.1.min.js"></script>
     <script src="~/js/jquery-ui.min-1.11.1.js"></script>
     @RenderSection("scripts", required: false)
-</body>
+</body>*@
 </html>

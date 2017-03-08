@@ -6,7 +6,7 @@
     ViewBag.IsIndex = true;
 }
 
-<h2>Don't have any post</h2>
+@*<h2>Don't have any post</h2>*@
 
 @Html.Raw(string.Join("<hr/>", Model.Select(p => Html.Partial("_renderPost", p))))
 

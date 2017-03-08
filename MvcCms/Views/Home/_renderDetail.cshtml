@@ -1,0 +1,36 @@
+﻿@model MvcCms.Models.Post
+
+<div class="col-lg-12">
+    <div class="media">
+        @if (ViewBag.IsIndex)
+        {
+            <h3 class="media-heading text-primary-theme">
+                @Html.ActionLink(Model.Title, "post", new { controller = "home", postId = Model.Id })
+            </h3>
+        }
+        else
+        {
+            <h3 class="media-heading text-primary-theme">
+                @Model.Title
+            </h3>
+        }
+        @*<a href="menu/"><img src="~/themes/assets/images/nepali-momo.png" alt="nepali-momo"> </a>*@
+        @*<h3 class="media-heading text-primary-theme">NEPALESE LAMB MOMO</h3>*@
+        <p>@Html.Raw(Model.Content)</p>
+    </div>
+</div>
+
+@*@if (ViewBag.IsIndex)
+    {
+        <h2>@Html.ActionLink(Model.Title, "post", new {controller = "home", postId = Model.Id })</h2>
+    }
+    else
+    {
+        <h2>@Model.Title</h2>
+    }
+
+    <p>@Html.Raw(Model.Content)</p>
+    <p>By: @Model.Author.DisplayName</p>
+    <p>Tags: @Html.Partial("_renderTags", Model.Tags)</p>*@
+
+

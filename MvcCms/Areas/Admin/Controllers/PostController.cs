@@ -172,7 +172,7 @@ namespace MvcCms.Areas.Admin.Controllers
         // /admin/post/delete/post-to-edit
         [HttpGet]
         [Route("delete/{postId}")]
-        //[Authorize(Roles="admin, editor")]
+        [Authorize(Roles="admin, editor")]
         public ActionResult Delete(string postId)
         {
             var post = _repository.Get(postId);
@@ -189,7 +189,7 @@ namespace MvcCms.Areas.Admin.Controllers
         [HttpPost]
         [Route("delete/{postId}")]
         [ValidateAntiForgeryToken]
-        //[Authorize(Roles = "admin, editor")]
+        [Authorize(Roles = "admin, editor")]
         public ActionResult Delete(string postId, string foo)
         {
             try
