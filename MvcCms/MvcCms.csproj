@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -153,17 +153,8 @@
     <Content Include="css\typo.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
-    <Content Include="images\1.png" />
-    <Content Include="images\2.png" />
-    <Content Include="images\3.png" />
     <Content Include="images\error-bg.jpg" />
     <Content Include="images\error.png" />
-    <Content Include="images\g1.jpg" />
-    <Content Include="images\g2.jpg" />
-    <Content Include="images\g3.jpg" />
-    <Content Include="images\g4.jpg" />
-    <Content Include="images\g5.jpg" />
-    <Content Include="images\g6.jpg" />
     <Content Include="images\logo.png" />
     <Content Include="images\logo1.png" />
     <Content Include="images\s1.jpg" />
@@ -524,6 +515,26 @@
     <Content Include="Scripts\ckeditor\skins\moono-lisa\images\refresh.png" />
     <Content Include="Scripts\ckeditor\skins\moono-lisa\images\spinner.gif" />
     <Content Include="Scripts\ckeditor\styles.js" />
+    <Content Include="themes\assets\css\carousel.css" />
+    <Content Include="themes\assets\ico\apple-touch-icon-144-precomposed.png" />
+    <Content Include="themes\assets\ico\favicon.ico" />
+    <Content Include="themes\assets\images\burger.png" />
+    <Content Include="themes\assets\images\chicken.png" />
+    <Content Include="themes\assets\images\chicken_fry.png" />
+    <Content Include="themes\assets\images\courinder.png" />
+    <Content Include="themes\assets\images\drinks.png" />
+    <Content Include="themes\assets\images\drinks_lussy.png" />
+    <Content Include="themes\assets\images\fish-and-chips.png" />
+    <Content Include="themes\assets\images\gorkha-special-chicken.png" />
+    <Content Include="themes\assets\images\lam-tikka.png" />
+    <Content Include="themes\assets\images\nepali-momo.png" />
+    <Content Include="themes\assets\images\rice.png" />
+    <Content Include="themes\assets\images\salate.png" />
+    <Content Include="themes\assets\js\holder.js" />
+    <Content Include="themes\assets\js\ie8-responsive-file-warning.js" />
+    <Content Include="themes\dist\css\bootstrap.min.css" />
+    <Content Include="themes\dist\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="themes\dist\js\bootstrap.min.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -614,10 +625,8 @@
     <Content Include="Scripts\ckeditor\package.json" />
     <Content Include="Scripts\ckeditor\LICENSE.md" />
     <Content Include="Scripts\ckeditor\CHANGES.md" />
-
     <Content Include="Upload.ashx" />
     <Content Include="Views\Home\uploadPartial.cshtml" />
-
     <Content Include="fonts\fontawesome-webfont.eot" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.woff" />
@@ -625,7 +634,10 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="Areas\Admin\Views\Shared\_DashBoardLayout.cshtml" />
-
+    <Content Include="themes\dist\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="themes\dist\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="themes\dist\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Views\Home\_renderDetail.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -636,7 +648,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Admin\Models\" />
-    <Folder Include="Images\uploads\" />
+    <Folder Include="images\uploads\" />
     <Folder Include="Views\Default\" />
   </ItemGroup>
   <ItemGroup>
