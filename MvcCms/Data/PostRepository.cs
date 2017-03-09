@@ -44,6 +44,10 @@ namespace MvcCms.Data
 
                 post.Id = updatedItem.Id;
                 post.Title = updatedItem.Title;
+                if (updatedItem.ImageUpload != null)
+                {
+                    post.ImageUrl = updatedItem.ImageUrl;
+                }
                 post.Content = updatedItem.Content;
                 post.Published = updatedItem.Published;
                 post.Tags = updatedItem.Tags;

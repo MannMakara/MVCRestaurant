@@ -25,8 +25,13 @@ namespace MvcCms.Models
         [Display(Name = "Date Created")]
         public DateTime Created { get; set; }
 
+        [DataType(DataType.Upload)]
+        [Display(Name="Featured Image")]
+        [NotMapped]
+        public HttpPostedFileBase ImageUpload { get; set; }
 
         [Display(Name = "Feature Image")]
+       
         public string ImageUrl { get; set; }
 
         [Display(Name = "Date Published")]

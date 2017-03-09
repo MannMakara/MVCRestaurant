@@ -59,6 +59,15 @@ namespace MvcCms.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Create(Post model)
         {
+            if (model.ImageUpload != null)
+            {
+                string ImageName = model.ImageUpload.FileName;
+                string path = System.IO.Path.Combine(Server.MapPath("~/Images/uploads"), ImageName);
+                string urlImage = "/Images/uploads/" + ImageName;
+                model.ImageUpload.SaveAs(path);
+                model.ImageUrl = urlImage;
+            }
+
             if (!ModelState.IsValid)
             {
                 return View(model);
@@ -123,6 +132,15 @@ namespace MvcCms.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Edit(string postId, Post model)
         {
+            if (model.ImageUpload != null)
+            {
+                string ImageName = model.ImageUpload.FileName;
+                string path = System.IO.Path.Combine(Server.MapPath("~/Images/uploads"), ImageName);
+                string urlImage = "/Images/uploads/" + ImageName;
+                model.ImageUpload.SaveAs(path);
+                model.ImageUrl = urlImage;
+            }
+           
             if (!ModelState.IsValid)
             {
                 return View(model);
