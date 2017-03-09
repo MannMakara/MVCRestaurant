@@ -130,3 +130,4 @@ C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\obj\Debug\MvcCms.csproj.Gene
 C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\obj\Debug\MvcCms.dll
 C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\obj\Debug\MvcCms.pdb
 C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\obj\Debug\MvcCms.csprojResolveAssemblyReference.cache
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\obj\Debug\MvcCms.Migrations.Price.resources

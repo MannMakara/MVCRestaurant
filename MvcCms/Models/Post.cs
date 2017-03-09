@@ -56,5 +56,9 @@ namespace MvcCms.Models
 
         [ForeignKey("AuthorId")]
         public virtual CmsUser Author { get; set; }
+
+        //Price
+        [Display(Name = "Price")]
+        public float Price { get; set; }
     }
 }

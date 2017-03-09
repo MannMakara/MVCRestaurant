@@ -87,6 +87,8 @@ namespace MvcCms.Areas.Admin.Controllers
 
             model.AuthorId = user.Id;
 
+            model.Price = model.Price;
+
             try
             {
                 _repository.Create(model);

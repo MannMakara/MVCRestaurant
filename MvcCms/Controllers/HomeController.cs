@@ -10,7 +10,7 @@ using System.Web.Mvc;
 
 namespace MvcCms.Controllers
 {
-   
+
     public class HomeController : Controller
     {
         private readonly IPostRepository _posts;

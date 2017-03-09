@@ -52,6 +52,8 @@ namespace MvcCms.Data
                 post.Published = updatedItem.Published;
                 post.Tags = updatedItem.Tags;
 
+                post.Price = updatedItem.Price;
+
                 db.SaveChanges();
             }
         }
